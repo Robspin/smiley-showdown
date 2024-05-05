@@ -1,43 +1,33 @@
 import { Rarity, Smiley } from '@/utils/smileys/config'
 import battleSmileys from '@/utils/smileys/battle-smileys.json'
-import SmileyCard from '@/components/smiley-card'
-import { TypographyH1, TypographyH2 } from '@/components/typography'
+import { TypographyH1, TypographyH2, TypographyP } from '@/components/typography'
 import PageContainer from '@/components/page-container'
-import RarityText from '@/components/typography/rarity-text'
+import Link from 'next/link'
+import { Button } from '@/components/ui/button'
 
 
 
 export default function Page() {
-    // @ts-ignore
-    const smileys: Smiley[] = battleSmileys as Smiley[]
-
-    const byRarity: { [key in Rarity]: Smiley[] } = {
-        Legendary: [],
-        Epic: [],
-        Rare: [],
-        Normal: [],
-        Crap: [],
-    }
-
-    smileys.forEach(s => byRarity[s.rarity].push(s))
 
     return (
       <PageContainer>
-          <div>
               <TypographyH1>
-                  SmileyDex
+                  Smiley Showdown
               </TypographyH1>
+          <TypographyP>
+              The time of peace within the FontAwesome smiley community is over!
+          </TypographyP>
+          <TypographyP>
+              Groups of smileys have banded together to fight for wealth, glory and to prove their worth!!
+          </TypographyP>
+          <div className="flex flex-col gap-16 mt-16">
+          <Link href="/battle">
+              <Button>Battle Now</Button>
+          </Link>
+          <Link href="/smileydex">
+              <Button>View current SmileyDex</Button>
+          </Link>
           </div>
-          {Object.keys(byRarity).map((r) => (
-              <div key={r} className="mb-8">
-                  <RarityText rarity={r as Rarity}>
-                    <TypographyH2>{r}</TypographyH2>
-                  </RarityText>
-                  <div className="flex flex-wrap gap-10">
-                    {byRarity[r as Rarity].map((s, i) => <SmileyCard smiley={s} key={i} />)}
-                  </div>
-              </div>
-          ))}
       </PageContainer>
     );
 }

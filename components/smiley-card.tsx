@@ -13,7 +13,7 @@ const rarityColor: any = {
     Legendary: "bg-gradient-to-r from-amber-200 to-yellow-500",
 }
 
-function ColoredStat({ rarity, value, title }: { rarity: Rarity, value: number, title: string }) {
+export function ColoredStat({ rarity, value, title }: { rarity: Rarity, value: number, title: string }) {
     const maxStat = config[rarity].max === value
     const highStat = config[rarity].min < value
 
@@ -26,13 +26,19 @@ type Props = {
     smiley: Smiley
 }
 
+export function SmileyFace({ smiley, className }: { smiley: Smiley, className?: string }) {
+    return (
+        <FontAwesomeIcon icon={['far', smiley.icon as unknown as IconName]} inverse transform="shrink-4"
+                         mask={faSquareFull as IconProp} color="white"
+                         className={`${rarityColor[smiley.rarity]} ${className}`}/>
+    )
+}
+
 export default function SmileyCard({ smiley }: Props) {
     return (
         <div className="border border-gray-400 p-3 rounded flex flex-wrap">
             <div className="flex flex-col justify-center items-center gap-4 min-w-52">
-                <FontAwesomeIcon icon={['far', smiley.icon as unknown as IconName]} inverse transform="shrink-4"
-                                 mask={faSquareFull as IconProp} color="white"
-                                 className={`h-20 w-20 ${rarityColor[smiley.rarity]}`}/>
+                <SmileyFace className="h-20 w-20" smiley={smiley} />
                 <TypographyH4>{smiley.name}</TypographyH4>
 
                 <div>

@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
     <body className={`${inter.className} w-full flex flex-col items-center overflow-y-scroll`}>
-        <div className="max-lg:min-w-full lg:min-w-[864px] max-w-[1280px] p-3 md:p-8">
+        <div className="max-lg:min-w-full lg:min-w-[1024px] max-w-[1024px] p-3 md:p-8">
           {children}
         </div>
     </body>
