@@ -51,6 +51,22 @@ function Hud({ type, smiley, health }: HudProps) {
     )
 }
 
+function SmileyRosterCard({ smiley }: { smiley: Smiley }) {
+    return (
+        <div className="border-slate-500 border rounded-2xl overflow-hidden">
+            <SmileyFace className="w-12 h-12" smiley={smiley} />
+        </div>
+    )
+}
+
+function SmileyRoster({ smileys, className }: { smileys: Smiley[], className?: string }) {
+    return (
+        <div className={`flex gap-2 mt-2 ${className}`}>
+            {smileys.map((s, i) => <SmileyRosterCard smiley={s} key={i} />)}
+        </div>
+    )
+}
+
 const playerAttackConfig = {
     player: {
         from: {
@@ -188,6 +204,7 @@ export default function BattleScene({ sceneData }: Props) {
                         </animated.div>
                     </div>
                     <Hud type="Player" smiley={playerSmiley} health={battleData.playerSmiley.health}/>
+                    <SmileyRoster smileys={sceneData.playerSmileys} />
                 </div>
                 <div>
                     <animated.div className="text-center font-extrabold text-4xl tracking-tighter text-red-500" style={damageSprings}>
@@ -201,6 +218,7 @@ export default function BattleScene({ sceneData }: Props) {
                         </animated.div>
                     </div>
                     <Hud type="Enemy" smiley={enemySmiley} health={battleData.enemySmiley.health}/>
+                    <SmileyRoster smileys={sceneData.enemySmileys} className="self-end" />
                 </div>
             </div>
             <div className="py-4 flex justify-between">

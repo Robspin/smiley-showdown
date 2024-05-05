@@ -21,13 +21,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-    <body className={`${inter.className} w-full flex flex-col items-center overflow-y-scroll`}>
-        <div className="max-lg:min-w-full lg:min-w-[1024px] max-w-[1024px] p-3 md:p-8">
-            <Link href="/">Home</Link>
+      <html lang="en">
+      <link rel="icon" href="/favicon.png" sizes="any"/>
+      <body className={`${inter.className} w-full flex flex-col items-center overflow-y-scroll`}>
+      <div className="max-lg:min-w-full lg:min-w-[1024px] max-w-[1024px] p-3 md:p-8">
+          <Link href="/">Home</Link>
           {children}
-        </div>
-    </body>
-    </html>
-);
+      </div>
+      </body>
+      </html>
+  );
 }

@@ -15,7 +15,7 @@ const rarityColor: any = {
 
 export function ColoredStat({ rarity, value, title }: { rarity: Rarity, value: number, title: string }) {
     const maxStat = config[rarity].max === value
-    const highStat = config[rarity].min < value
+    const highStat = config[rarity].min + 1 < value
 
     return (
         <li>{title}: <span className={`${maxStat ? 'text-yellow-500' : highStat && 'text-green-600'}`}>{value}</span></li>

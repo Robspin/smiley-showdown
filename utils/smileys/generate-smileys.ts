@@ -4,27 +4,27 @@ export const config: { [key in Rarity]: { min: number, max: number, occurrence: 
     Crap: {
         occurrence: 5,
         min: 1,
-        max: 2
+        max: 3
     },
     Normal: {
         occurrence: 35,
         min: 2,
-        max: 4
+        max: 5
     },
     Rare: {
         occurrence: 30,
         min: 3,
-        max: 6
+        max: 7
     },
     Epic: {
         occurrence: 15,
         min: 5,
-        max: 8
+        max: 10
     },
     Legendary: {
         occurrence: 5,
         min: 8,
-        max: 10
+        max: 14
     }
 }
 

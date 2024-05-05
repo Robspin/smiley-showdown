@@ -2,6 +2,34 @@ import { IconDefinition } from '@fortawesome/pro-regular-svg-icons'
 
 export type Rarity = 'Crap' | 'Normal' | 'Rare' | 'Epic' | 'Legendary'
 
+export const config: { [key in Rarity]: { min: number, max: number, occurrence: number }} = {
+    Crap: {
+        occurrence: 5,
+        min: 1,
+        max: 3
+    },
+    Normal: {
+        occurrence: 35,
+        min: 2,
+        max: 5
+    },
+    Rare: {
+        occurrence: 30,
+        min: 3,
+        max: 7
+    },
+    Epic: {
+        occurrence: 15,
+        min: 5,
+        max: 10
+    },
+    Legendary: {
+        occurrence: 5,
+        min: 8,
+        max: 14
+    }
+}
+
 export interface Smiley {
     icon: IconDefinition
     name: string
@@ -10,34 +38,6 @@ export interface Smiley {
         strength: number
         defense: number
         health: number
-    }
-}
-
-export const config: { [key in Rarity]: { min: number, max: number, occurrence: number }} = {
-    Crap: {
-        occurrence: 5,
-        min: 1,
-        max: 2
-    },
-    Normal: {
-        occurrence: 35,
-        min: 2,
-        max: 4
-    },
-    Rare: {
-        occurrence: 30,
-        min: 3,
-        max: 6
-    },
-    Epic: {
-        occurrence: 15,
-        min: 5,
-        max: 8
-    },
-    Legendary: {
-        occurrence: 5,
-        min: 8,
-        max: 10
     }
 }
 

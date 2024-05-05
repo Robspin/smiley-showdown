@@ -4,29 +4,29 @@
     "name": "Hand yawn",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 5,
-      "defense": 4,
-      "health": 6
+      "strength": 6,
+      "defense": 7,
+      "health": 3
     }
   },
   {
     "icon": "face-hand-peeking",
     "name": "Hand peeking",
-    "rarity": "Normal",
+    "rarity": "Legendary",
     "baseStats": {
-      "strength": 4,
-      "defense": 4,
-      "health": 2
+      "strength": 12,
+      "defense": 12,
+      "health": 10
     }
   },
   {
     "icon": "face-icicles",
     "name": "Icicles",
-    "rarity": "Legendary",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 8,
-      "defense": 8,
-      "health": 8
+      "strength": 3,
+      "defense": 6,
+      "health": 5
     }
   },
   {
@@ -34,7 +34,7 @@
     "name": "Glasses",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 6,
+      "strength": 5,
       "defense": 6,
       "health": 6
     }
@@ -42,16 +42,46 @@
   {
     "icon": "face-smile-beam",
     "name": "Smile beam",
-    "rarity": "Rare",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 4,
-      "defense": 5,
-      "health": 6
+      "strength": 5,
+      "defense": 2,
+      "health": 4
     }
   },
   {
     "icon": "face-grin-stars",
     "name": "Grin stars",
+    "rarity": "Rare",
+    "baseStats": {
+      "strength": 4,
+      "defense": 4,
+      "health": 3
+    }
+  },
+  {
+    "icon": "face-unamused",
+    "name": "Unamused",
+    "rarity": "Epic",
+    "baseStats": {
+      "strength": 5,
+      "defense": 5,
+      "health": 7
+    }
+  },
+  {
+    "icon": "face-awesome",
+    "name": "Awesome",
+    "rarity": "Normal",
+    "baseStats": {
+      "strength": 4,
+      "defense": 4,
+      "health": 3
+    }
+  },
+  {
+    "icon": "face-smile-horns",
+    "name": "Smile horns",
     "rarity": "Normal",
     "baseStats": {
       "strength": 3,
@@ -60,43 +90,13 @@
     }
   },
   {
-    "icon": "face-unamused",
-    "name": "Unamused",
-    "rarity": "Normal",
-    "baseStats": {
-      "strength": 3,
-      "defense": 4,
-      "health": 4
-    }
-  },
-  {
-    "icon": "face-awesome",
-    "name": "Awesome",
-    "rarity": "Rare",
-    "baseStats": {
-      "strength": 4,
-      "defense": 6,
-      "health": 3
-    }
-  },
-  {
-    "icon": "face-smile-horns",
-    "name": "Smile horns",
-    "rarity": "Rare",
-    "baseStats": {
-      "strength": 5,
-      "defense": 4,
-      "health": 3
-    }
-  },
-  {
     "icon": "face-grin-tongue-squint",
     "name": "Grin tongue squint",
-    "rarity": "Rare",
+    "rarity": "Epic",
     "baseStats": {
-      "strength": 3,
-      "defense": 5,
-      "health": 6
+      "strength": 8,
+      "defense": 10,
+      "health": 5
     }
   },
   {
@@ -104,19 +104,19 @@
     "name": "Flushed",
     "rarity": "Normal",
     "baseStats": {
-      "strength": 3,
-      "defense": 2,
-      "health": 3
+      "strength": 5,
+      "defense": 4,
+      "health": 5
     }
   },
   {
     "icon": "face-angry-horns",
     "name": "Angry horns",
-    "rarity": "Rare",
+    "rarity": "Legendary",
     "baseStats": {
-      "strength": 3,
-      "defense": 5,
-      "health": 5
+      "strength": 12,
+      "defense": 12,
+      "health": 10
     }
   },
   {
@@ -124,8 +124,8 @@
     "name": "Mask",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 4,
-      "defense": 4,
+      "strength": 5,
+      "defense": 7,
       "health": 3
     }
   },
@@ -134,29 +134,29 @@
     "name": "Beam hand over mouth",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 6,
-      "defense": 4,
-      "health": 4
+      "strength": 3,
+      "defense": 3,
+      "health": 3
     }
   },
   {
     "icon": "face-kiss-beam",
     "name": "Kiss beam",
-    "rarity": "Epic",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 8,
-      "defense": 7,
-      "health": 6
+      "strength": 4,
+      "defense": 3,
+      "health": 3
     }
   },
   {
     "icon": "face-frown-slight",
     "name": "Frown slight",
-    "rarity": "Rare",
+    "rarity": "Crap",
     "baseStats": {
-      "strength": 4,
-      "defense": 4,
-      "health": 5
+      "strength": 3,
+      "defense": 1,
+      "health": 1
     }
   },
   {
@@ -164,7 +164,7 @@
     "name": "Sleeping",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 6,
+      "strength": 4,
       "defense": 5,
       "health": 6
     }
@@ -172,20 +172,20 @@
   {
     "icon": "face-cowboy-hat",
     "name": "Cowboy hat",
-    "rarity": "Normal",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 2,
+      "strength": 5,
       "defense": 3,
-      "health": 3
+      "health": 6
     }
   },
   {
     "icon": "face-anguished",
     "name": "Anguished",
-    "rarity": "Rare",
+    "rarity": "Crap",
     "baseStats": {
-      "strength": 5,
-      "defense": 3,
+      "strength": 2,
+      "defense": 2,
       "health": 3
     }
   },
@@ -194,29 +194,29 @@
     "name": "Dizzy",
     "rarity": "Normal",
     "baseStats": {
-      "strength": 3,
+      "strength": 5,
       "defense": 3,
-      "health": 2
+      "health": 4
     }
   },
   {
     "icon": "face-pleading",
     "name": "Pleading",
-    "rarity": "Rare",
+    "rarity": "Normal",
     "baseStats": {
       "strength": 5,
-      "defense": 4,
-      "health": 6
+      "defense": 2,
+      "health": 5
     }
   },
   {
     "icon": "face-shush",
     "name": "Shush",
-    "rarity": "Epic",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 5,
-      "defense": 7,
-      "health": 7
+      "strength": 3,
+      "defense": 3,
+      "health": 2
     }
   },
   {
@@ -224,8 +224,8 @@
     "name": "Saluting",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 6,
-      "defense": 5,
+      "strength": 3,
+      "defense": 4,
       "health": 3
     }
   },
@@ -235,18 +235,18 @@
     "rarity": "Normal",
     "baseStats": {
       "strength": 2,
-      "defense": 4,
-      "health": 3
+      "defense": 2,
+      "health": 5
     }
   },
   {
     "icon": "face-scream",
     "name": "Scream",
-    "rarity": "Normal",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 2,
-      "defense": 4,
-      "health": 3
+      "strength": 4,
+      "defense": 7,
+      "health": 5
     }
   },
   {
@@ -254,19 +254,19 @@
     "name": "Kiss",
     "rarity": "Normal",
     "baseStats": {
-      "strength": 3,
+      "strength": 4,
       "defense": 2,
-      "health": 2
+      "health": 3
     }
   },
   {
     "icon": "face-grin-tongue",
     "name": "Grin tongue",
-    "rarity": "Rare",
+    "rarity": "Epic",
     "baseStats": {
-      "strength": 4,
-      "defense": 5,
-      "health": 5
+      "strength": 5,
+      "defense": 8,
+      "health": 7
     }
   },
   {
@@ -274,79 +274,79 @@
     "name": "Grin wink",
     "rarity": "Normal",
     "baseStats": {
-      "strength": 4,
-      "defense": 3,
-      "health": 2
+      "strength": 5,
+      "defense": 4,
+      "health": 5
     }
   },
   {
     "icon": "face-relieved",
     "name": "Relieved",
-    "rarity": "Normal",
+    "rarity": "Epic",
     "baseStats": {
-      "strength": 4,
-      "defense": 2,
-      "health": 4
+      "strength": 5,
+      "defense": 10,
+      "health": 5
     }
   },
   {
     "icon": "face-zany",
     "name": "Zany",
-    "rarity": "Normal",
+    "rarity": "Rare",
     "baseStats": {
       "strength": 3,
-      "defense": 4,
-      "health": 2
+      "defense": 5,
+      "health": 4
     }
   },
   {
     "icon": "face-grin-wide",
     "name": "Grin wide",
-    "rarity": "Rare",
+    "rarity": "Epic",
     "baseStats": {
-      "strength": 6,
-      "defense": 6,
+      "strength": 10,
+      "defense": 5,
       "health": 5
     }
   },
   {
     "icon": "face-frown-open",
     "name": "Frown open",
-    "rarity": "Epic",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 5,
-      "defense": 6,
-      "health": 6
+      "strength": 6,
+      "defense": 5,
+      "health": 3
     }
   },
   {
     "icon": "face-holding-back-tears",
     "name": "Holding back tears",
-    "rarity": "Normal",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 4,
-      "defense": 2,
-      "health": 2
+      "strength": 3,
+      "defense": 7,
+      "health": 5
     }
   },
   {
     "icon": "face-anxious-sweat",
     "name": "Anxious sweat",
-    "rarity": "Rare",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 3,
-      "defense": 4,
-      "health": 6
+      "strength": 5,
+      "defense": 2,
+      "health": 5
     }
   },
   {
     "icon": "face-smile-tear",
     "name": "Smile tear",
-    "rarity": "Crap",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 2,
-      "defense": 2,
-      "health": 2
+      "strength": 5,
+      "defense": 4,
+      "health": 3
     }
   },
   {
@@ -355,8 +355,8 @@
     "rarity": "Epic",
     "baseStats": {
       "strength": 6,
-      "defense": 5,
-      "health": 6
+      "defense": 10,
+      "health": 10
     }
   },
   {
@@ -364,8 +364,8 @@
     "name": "Astonished",
     "rarity": "Normal",
     "baseStats": {
-      "strength": 4,
-      "defense": 3,
+      "strength": 5,
+      "defense": 5,
       "health": 3
     }
   },
@@ -374,59 +374,59 @@
     "name": "Laugh squint",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 5,
-      "defense": 6,
-      "health": 4
+      "strength": 3,
+      "defense": 3,
+      "health": 3
     }
   },
   {
     "icon": "face-laugh",
     "name": "Laugh",
-    "rarity": "Rare",
+    "rarity": "Crap",
     "baseStats": {
       "strength": 3,
-      "defense": 6,
-      "health": 4
+      "defense": 3,
+      "health": 2
     }
   },
   {
     "icon": "face-downcast-sweat",
     "name": "Downcast sweat",
-    "rarity": "Normal",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 3,
-      "defense": 4,
-      "health": 2
+      "strength": 6,
+      "defense": 6,
+      "health": 3
     }
   },
   {
     "icon": "face-exhaling",
     "name": "Exhaling",
-    "rarity": "Rare",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 3,
-      "defense": 3,
-      "health": 6
+      "strength": 2,
+      "defense": 5,
+      "health": 3
     }
   },
   {
     "icon": "face-laugh-beam",
     "name": "Laugh beam",
-    "rarity": "Normal",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 4,
-      "defense": 3,
-      "health": 4
+      "strength": 3,
+      "defense": 5,
+      "health": 3
     }
   },
   {
     "icon": "face-tired",
     "name": "Tired",
-    "rarity": "Rare",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 6,
-      "defense": 4,
-      "health": 3
+      "strength": 2,
+      "defense": 3,
+      "health": 5
     }
   },
   {
@@ -434,9 +434,9 @@
     "name": "Smile wink",
     "rarity": "Normal",
     "baseStats": {
-      "strength": 2,
-      "defense": 2,
-      "health": 2
+      "strength": 5,
+      "defense": 5,
+      "health": 4
     }
   },
   {
@@ -444,39 +444,39 @@
     "name": "Confounded",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 6,
-      "defense": 3,
-      "health": 4
+      "strength": 4,
+      "defense": 5,
+      "health": 7
     }
   },
   {
     "icon": "face-hushed",
     "name": "Hushed",
-    "rarity": "Normal",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 2,
-      "defense": 3,
-      "health": 4
+      "strength": 3,
+      "defense": 4,
+      "health": 6
     }
   },
   {
     "icon": "face-confused",
     "name": "Confused",
-    "rarity": "Normal",
+    "rarity": "Epic",
     "baseStats": {
-      "strength": 3,
-      "defense": 3,
-      "health": 4
+      "strength": 8,
+      "defense": 7,
+      "health": 7
     }
   },
   {
     "icon": "face-party",
     "name": "Party",
-    "rarity": "Rare",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 3,
+      "strength": 2,
       "defense": 5,
-      "health": 5
+      "health": 3
     }
   },
   {
@@ -484,69 +484,69 @@
     "name": "Kiss wink heart",
     "rarity": "Normal",
     "baseStats": {
-      "strength": 3,
+      "strength": 5,
       "defense": 2,
-      "health": 4
+      "health": 2
     }
   },
   {
     "icon": "face-grin-beam",
     "name": "Grin beam",
-    "rarity": "Rare",
+    "rarity": "Legendary",
     "baseStats": {
-      "strength": 6,
-      "defense": 4,
-      "health": 5
+      "strength": 14,
+      "defense": 12,
+      "health": 13
     }
   },
   {
     "icon": "face-disguise",
     "name": "Disguise",
-    "rarity": "Rare",
+    "rarity": "Epic",
     "baseStats": {
-      "strength": 4,
-      "defense": 4,
-      "health": 4
+      "strength": 5,
+      "defense": 10,
+      "health": 7
     }
   },
   {
     "icon": "face-rolling-eyes",
     "name": "Rolling eyes",
-    "rarity": "Normal",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 3,
-      "defense": 2,
-      "health": 3
+      "strength": 5,
+      "defense": 6,
+      "health": 5
     }
   },
   {
     "icon": "face-sleepy",
     "name": "Sleepy",
-    "rarity": "Rare",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 5,
-      "defense": 3,
+      "strength": 4,
+      "defense": 2,
       "health": 5
     }
   },
   {
     "icon": "face-thermometer",
     "name": "Thermometer",
-    "rarity": "Epic",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 6,
-      "defense": 8,
+      "strength": 3,
+      "defense": 4,
       "health": 6
     }
   },
   {
     "icon": "face-nauseated",
     "name": "Nauseated",
-    "rarity": "Rare",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 6,
-      "defense": 6,
-      "health": 5
+      "strength": 3,
+      "defense": 2,
+      "health": 4
     }
   },
   {
@@ -554,7 +554,7 @@
     "name": "Surprise",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 3,
+      "strength": 4,
       "defense": 3,
       "health": 5
     }
@@ -564,79 +564,79 @@
     "name": "Hand over mouth",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 4,
-      "defense": 3,
-      "health": 4
+      "strength": 6,
+      "defense": 7,
+      "health": 5
     }
   },
   {
     "icon": "face-clouds",
     "name": "Clouds",
-    "rarity": "Rare",
+    "rarity": "Crap",
     "baseStats": {
-      "strength": 4,
-      "defense": 4,
+      "strength": 2,
+      "defense": 2,
       "health": 3
     }
   },
   {
     "icon": "face-meh-blank",
     "name": "Meh blank",
-    "rarity": "Legendary",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 9,
-      "defense": 9,
-      "health": 8
+      "strength": 7,
+      "defense": 4,
+      "health": 6
     }
   },
   {
     "icon": "face-zipper",
     "name": "Zipper",
-    "rarity": "Legendary",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 9,
-      "defense": 8,
-      "health": 10
+      "strength": 3,
+      "defense": 7,
+      "health": 5
     }
   },
   {
     "icon": "face-raised-eyebrow",
     "name": "Raised eyebrow",
-    "rarity": "Rare",
+    "rarity": "Epic",
     "baseStats": {
-      "strength": 5,
-      "defense": 6,
-      "health": 3
+      "strength": 10,
+      "defense": 9,
+      "health": 10
     }
   },
   {
     "icon": "face-sad-cry",
     "name": "Sad cry",
-    "rarity": "Epic",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 6,
-      "defense": 8,
+      "strength": 5,
+      "defense": 4,
       "health": 5
     }
   },
   {
     "icon": "face-frown",
     "name": "Frown",
-    "rarity": "Normal",
+    "rarity": "Legendary",
     "baseStats": {
-      "strength": 4,
-      "defense": 3,
-      "health": 4
+      "strength": 13,
+      "defense": 10,
+      "health": 14
     }
   },
   {
     "icon": "face-kiss-closed-eyes",
     "name": "Kiss closed eyes",
-    "rarity": "Legendary",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 9,
-      "defense": 10,
-      "health": 9
+      "strength": 5,
+      "defense": 6,
+      "health": 7
     }
   },
   {
@@ -644,19 +644,19 @@
     "name": "Tongue money",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 6,
-      "defense": 3,
-      "health": 4
+      "strength": 5,
+      "defense": 6,
+      "health": 7
     }
   },
   {
     "icon": "face-grin-squint",
     "name": "Grin squint",
-    "rarity": "Epic",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 7,
-      "defense": 6,
-      "health": 8
+      "strength": 4,
+      "defense": 4,
+      "health": 4
     }
   },
   {
@@ -664,8 +664,8 @@
     "name": "Pensive",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 6,
-      "defense": 6,
+      "strength": 3,
+      "defense": 7,
       "health": 3
     }
   },
@@ -674,47 +674,47 @@
     "name": "Grin tears",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 6,
-      "defense": 4,
-      "health": 5
+      "strength": 4,
+      "defense": 3,
+      "health": 7
     }
   },
   {
     "icon": "face-melting",
     "name": "Melting",
-    "rarity": "Normal",
+    "rarity": "Crap",
     "baseStats": {
-      "strength": 3,
-      "defense": 2,
-      "health": 4
+      "strength": 1,
+      "defense": 3,
+      "health": 3
     }
   },
   {
     "icon": "face-fearful",
     "name": "Fearful",
-    "rarity": "Normal",
+    "rarity": "Rare",
     "baseStats": {
       "strength": 4,
-      "defense": 4,
-      "health": 3
+      "defense": 5,
+      "health": 6
     }
   },
   {
     "icon": "face-tissue",
     "name": "Tissue",
-    "rarity": "Crap",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 2,
+      "strength": 4,
       "defense": 2,
-      "health": 2
+      "health": 4
     }
   },
   {
     "icon": "face-grin-squint-tears",
     "name": "Grin squint tears",
-    "rarity": "Rare",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 6,
+      "strength": 3,
       "defense": 4,
       "health": 4
     }
@@ -722,11 +722,11 @@
   {
     "icon": "face-smile-upside-down",
     "name": "Smile upside down",
-    "rarity": "Rare",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 5,
+      "strength": 3,
       "defense": 3,
-      "health": 4
+      "health": 2
     }
   },
   {
@@ -734,29 +734,29 @@
     "name": "Smile halo",
     "rarity": "Normal",
     "baseStats": {
-      "strength": 2,
-      "defense": 2,
-      "health": 4
+      "strength": 5,
+      "defense": 5,
+      "health": 3
     }
   },
   {
     "icon": "face-smile-plus",
     "name": "Smile plus",
-    "rarity": "Rare",
+    "rarity": "Epic",
     "baseStats": {
       "strength": 5,
-      "defense": 3,
-      "health": 3
+      "defense": 6,
+      "health": 8
     }
   },
   {
     "icon": "face-swear",
     "name": "Swear",
-    "rarity": "Rare",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 3,
-      "defense": 6,
-      "health": 4
+      "strength": 2,
+      "defense": 3,
+      "health": 2
     }
   },
   {
@@ -765,8 +765,8 @@
     "rarity": "Normal",
     "baseStats": {
       "strength": 3,
-      "defense": 2,
-      "health": 4
+      "defense": 3,
+      "health": 2
     }
   },
   {
@@ -774,69 +774,69 @@
     "name": "Spiral eyes",
     "rarity": "Normal",
     "baseStats": {
-      "strength": 3,
+      "strength": 2,
       "defense": 2,
-      "health": 4
+      "health": 5
     }
   },
   {
     "icon": "face-lying",
     "name": "Lying",
-    "rarity": "Normal",
+    "rarity": "Legendary",
     "baseStats": {
-      "strength": 3,
-      "defense": 3,
-      "health": 4
+      "strength": 13,
+      "defense": 14,
+      "health": 10
     }
   },
   {
     "icon": "face-grin",
     "name": "Grin",
-    "rarity": "Rare",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 6,
-      "defense": 5,
-      "health": 3
+      "strength": 5,
+      "defense": 3,
+      "health": 5
     }
   },
   {
     "icon": "face-meh",
     "name": "Meh",
-    "rarity": "Legendary",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 8,
-      "defense": 9,
-      "health": 8
+      "strength": 7,
+      "defense": 7,
+      "health": 5
     }
   },
   {
     "icon": "face-dotted",
     "name": "Dotted",
-    "rarity": "Normal",
+    "rarity": "Crap",
     "baseStats": {
-      "strength": 4,
+      "strength": 2,
       "defense": 2,
-      "health": 2
+      "health": 3
     }
   },
   {
     "icon": "face-worried",
     "name": "Worried",
-    "rarity": "Normal",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 2,
-      "defense": 2,
-      "health": 2
+      "strength": 5,
+      "defense": 7,
+      "health": 7
     }
   },
   {
     "icon": "face-smile-hearts",
     "name": "Smile hearts",
-    "rarity": "Rare",
+    "rarity": "Legendary",
     "baseStats": {
-      "strength": 4,
-      "defense": 4,
-      "health": 4
+      "strength": 9,
+      "defense": 13,
+      "health": 9
     }
   },
   {
@@ -844,9 +844,9 @@
     "name": "Laugh wink",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 5,
-      "defense": 5,
-      "health": 5
+      "strength": 4,
+      "defense": 4,
+      "health": 6
     }
   },
   {
@@ -855,28 +855,28 @@
     "rarity": "Normal",
     "baseStats": {
       "strength": 2,
-      "defense": 2,
+      "defense": 4,
       "health": 4
     }
   },
   {
     "icon": "face-sunglasses",
     "name": "Sunglasses",
-    "rarity": "Normal",
+    "rarity": "Epic",
     "baseStats": {
-      "strength": 4,
-      "defense": 3,
-      "health": 4
+      "strength": 8,
+      "defense": 8,
+      "health": 6
     }
   },
   {
     "icon": "face-smiling-hands",
     "name": "Smiling hands",
-    "rarity": "Rare",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 3,
-      "defense": 6,
-      "health": 5
+      "strength": 2,
+      "defense": 4,
+      "health": 3
     }
   },
   {
@@ -884,19 +884,19 @@
     "name": "Tongue sweat",
     "rarity": "Normal",
     "baseStats": {
-      "strength": 3,
+      "strength": 2,
       "defense": 3,
-      "health": 3
+      "health": 4
     }
   },
   {
     "icon": "face-smirking",
     "name": "Smirking",
-    "rarity": "Normal",
+    "rarity": "Rare",
     "baseStats": {
-      "strength": 2,
-      "defense": 2,
-      "health": 3
+      "strength": 5,
+      "defense": 3,
+      "health": 7
     }
   },
   {
@@ -904,19 +904,19 @@
     "name": "Smile tongue",
     "rarity": "Normal",
     "baseStats": {
-      "strength": 3,
+      "strength": 5,
       "defense": 4,
-      "health": 3
+      "health": 2
     }
   },
   {
     "icon": "face-disappointed",
     "name": "Disappointed",
-    "rarity": "Rare",
+    "rarity": "Epic",
     "baseStats": {
-      "strength": 6,
-      "defense": 6,
-      "health": 6
+      "strength": 8,
+      "defense": 8,
+      "health": 9
     }
   },
   {
@@ -924,8 +924,8 @@
     "name": "Eyes xmarks",
     "rarity": "Normal",
     "baseStats": {
-      "strength": 2,
-      "defense": 3,
+      "strength": 5,
+      "defense": 5,
       "health": 3
     }
   },
@@ -934,144 +934,14 @@
     "name": "Expressionless",
     "rarity": "Rare",
     "baseStats": {
-      "strength": 3,
-      "defense": 5,
+      "strength": 7,
+      "defense": 4,
       "health": 3
     }
   },
   {
     "icon": "face-smile",
     "name": "Smile",
-    "rarity": "Rare",
-    "baseStats": {
-      "strength": 4,
-      "defense": 6,
-      "health": 4
-    }
-  },
-  {
-    "icon": "face-vomit",
-    "name": "Vomit",
-    "rarity": "Rare",
-    "baseStats": {
-      "strength": 5,
-      "defense": 4,
-      "health": 3
-    }
-  },
-  {
-    "icon": "face-grin-hearts",
-    "name": "Grin hearts",
-    "rarity": "Rare",
-    "baseStats": {
-      "strength": 4,
-      "defense": 6,
-      "health": 6
-    }
-  },
-  {
-    "icon": "face-grin-beam-sweat",
-    "name": "Grin beam sweat",
-    "rarity": "Normal",
-    "baseStats": {
-      "strength": 3,
-      "defense": 3,
-      "health": 4
-    }
-  },
-  {
-    "icon": "face-diagonal-mouth",
-    "name": "Diagonal mouth",
-    "rarity": "Normal",
-    "baseStats": {
-      "strength": 3,
-      "defense": 3,
-      "health": 3
-    }
-  },
-  {
-    "icon": "face-pouting",
-    "name": "Pouting",
-    "rarity": "Rare",
-    "baseStats": {
-      "strength": 5,
-      "defense": 4,
-      "health": 5
-    }
-  },
-  {
-    "icon": "face-explode",
-    "name": "Explode",
-    "rarity": "Legendary",
-    "baseStats": {
-      "strength": 8,
-      "defense": 9,
-      "health": 8
-    }
-  },
-  {
-    "icon": "face-grin-tongue-wink",
-    "name": "Grin tongue wink",
-    "rarity": "Rare",
-    "baseStats": {
-      "strength": 5,
-      "defense": 3,
-      "health": 3
-    }
-  },
-  {
-    "icon": "face-angry",
-    "name": "Angry",
-    "rarity": "Normal",
-    "baseStats": {
-      "strength": 4,
-      "defense": 3,
-      "health": 2
-    }
-  },
-  {
-    "icon": "face-monocle",
-    "name": "Monocle",
-    "rarity": "Normal",
-    "baseStats": {
-      "strength": 2,
-      "defense": 4,
-      "health": 3
-    }
-  },
-  {
-    "icon": "face-viewfinder",
-    "name": "Viewfinder",
-    "rarity": "Epic",
-    "baseStats": {
-      "strength": 7,
-      "defense": 6,
-      "health": 5
-    }
-  },
-  {
-    "icon": "face-thinking",
-    "name": "Thinking",
-    "rarity": "Rare",
-    "baseStats": {
-      "strength": 3,
-      "defense": 6,
-      "health": 6
-    }
-  },
-  {
-    "icon": "mask-face",
-    "name": "Mask face",
-    "rarity": "Epic",
-    "baseStats": {
-      "strength": 5,
-      "defense": 5,
-      "health": 5
-    }
-  },
-  {
-    "icon": "face-grimace",
-    "name": "Grimace",
     "rarity": "Epic",
     "baseStats": {
       "strength": 6,
@@ -1080,13 +950,143 @@
     }
   },
   {
-    "icon": "face-sad-sweat",
-    "name": "Sad sweat",
+    "icon": "face-vomit",
+    "name": "Vomit",
+    "rarity": "Normal",
+    "baseStats": {
+      "strength": 2,
+      "defense": 2,
+      "health": 5
+    }
+  },
+  {
+    "icon": "face-grin-hearts",
+    "name": "Grin hearts",
+    "rarity": "Epic",
+    "baseStats": {
+      "strength": 10,
+      "defense": 5,
+      "health": 8
+    }
+  },
+  {
+    "icon": "face-grin-beam-sweat",
+    "name": "Grin beam sweat",
+    "rarity": "Legendary",
+    "baseStats": {
+      "strength": 9,
+      "defense": 11,
+      "health": 13
+    }
+  },
+  {
+    "icon": "face-diagonal-mouth",
+    "name": "Diagonal mouth",
     "rarity": "Crap",
     "baseStats": {
       "strength": 2,
-      "defense": 1,
+      "defense": 2,
+      "health": 3
+    }
+  },
+  {
+    "icon": "face-pouting",
+    "name": "Pouting",
+    "rarity": "Normal",
+    "baseStats": {
+      "strength": 5,
+      "defense": 2,
+      "health": 5
+    }
+  },
+  {
+    "icon": "face-explode",
+    "name": "Explode",
+    "rarity": "Rare",
+    "baseStats": {
+      "strength": 6,
+      "defense": 5,
+      "health": 5
+    }
+  },
+  {
+    "icon": "face-grin-tongue-wink",
+    "name": "Grin tongue wink",
+    "rarity": "Crap",
+    "baseStats": {
+      "strength": 3,
+      "defense": 2,
       "health": 2
+    }
+  },
+  {
+    "icon": "face-angry",
+    "name": "Angry",
+    "rarity": "Normal",
+    "baseStats": {
+      "strength": 5,
+      "defense": 3,
+      "health": 3
+    }
+  },
+  {
+    "icon": "face-monocle",
+    "name": "Monocle",
+    "rarity": "Rare",
+    "baseStats": {
+      "strength": 6,
+      "defense": 5,
+      "health": 4
+    }
+  },
+  {
+    "icon": "face-viewfinder",
+    "name": "Viewfinder",
+    "rarity": "Rare",
+    "baseStats": {
+      "strength": 6,
+      "defense": 6,
+      "health": 6
+    }
+  },
+  {
+    "icon": "face-thinking",
+    "name": "Thinking",
+    "rarity": "Rare",
+    "baseStats": {
+      "strength": 6,
+      "defense": 6,
+      "health": 5
+    }
+  },
+  {
+    "icon": "mask-face",
+    "name": "Mask face",
+    "rarity": "Rare",
+    "baseStats": {
+      "strength": 6,
+      "defense": 7,
+      "health": 6
+    }
+  },
+  {
+    "icon": "face-grimace",
+    "name": "Grimace",
+    "rarity": "Epic",
+    "baseStats": {
+      "strength": 6,
+      "defense": 5,
+      "health": 6
+    }
+  },
+  {
+    "icon": "face-sad-sweat",
+    "name": "Sad sweat",
+    "rarity": "Normal",
+    "baseStats": {
+      "strength": 4,
+      "defense": 4,
+      "health": 4
     }
   },
   {
@@ -1095,28 +1095,28 @@
     "rarity": "Rare",
     "baseStats": {
       "strength": 5,
-      "defense": 3,
-      "health": 6
+      "defense": 5,
+      "health": 5
     }
   },
   {
     "icon": "face-smile-relaxed",
     "name": "Smile relaxed",
-    "rarity": "Rare",
+    "rarity": "Normal",
     "baseStats": {
-      "strength": 3,
-      "defense": 4,
-      "health": 5
+      "strength": 4,
+      "defense": 3,
+      "health": 4
     }
   },
   {
     "icon": "face-nose-steam",
     "name": "Nose steam",
-    "rarity": "Legendary",
+    "rarity": "Epic",
     "baseStats": {
-      "strength": 8,
-      "defense": 9,
-      "health": 9
+      "strength": 6,
+      "defense": 10,
+      "health": 8
     }
   },
   {
@@ -1124,9 +1124,9 @@
     "name": "Woozy",
     "rarity": "Normal",
     "baseStats": {
-      "strength": 4,
+      "strength": 2,
       "defense": 2,
-      "health": 2
+      "health": 5
     }
   }
 ]
