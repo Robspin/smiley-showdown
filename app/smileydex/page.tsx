@@ -22,22 +22,22 @@ export default function Page() {
     smileys.forEach(s => byRarity[s.rarity].push(s))
 
     return (
-      <PageContainer>
-          <div>
-              <TypographyH1>
-                  SmileyDex
-              </TypographyH1>
-          </div>
-          {Object.keys(byRarity).map((r) => (
-              <div key={r} className="mb-8">
-                  <RarityText rarity={r as Rarity}>
-                    <TypographyH2>{r}</TypographyH2>
-                  </RarityText>
-                  <div className="flex flex-wrap gap-10">
-                    {byRarity[r as Rarity].map((s, i) => <SmileyCard smiley={s} key={i} />)}
-                  </div>
-              </div>
-          ))}
-      </PageContainer>
+        <PageContainer>
+            <div>
+                <TypographyH1>
+                    SmileyDex
+                </TypographyH1>
+            </div>
+            {Object.keys(byRarity).map((r) => (
+                <div key={r} className="mb-8">
+                    <RarityText rarity={r as Rarity}>
+                        <TypographyH2>{r}</TypographyH2>
+                    </RarityText>
+                    <div className="flex flex-wrap gap-10">
+                        {byRarity[r as Rarity].map((s, i) => <SmileyCard smiley={s} key={i} />)}
+                    </div>
+                </div>
+            ))}
+        </PageContainer>
     );
 }
