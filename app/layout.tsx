@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { far } from '@fortawesome/pro-regular-svg-icons'
 import "./globals.css";
+import Link from 'next/link'
 
 // library.add(Object.values(far).filter(i => i.iconName.includes('face'))})
 library.add(far)
@@ -23,6 +24,7 @@ export default function RootLayout({
     <html lang="en">
     <body className={`${inter.className} w-full flex flex-col items-center overflow-y-scroll`}>
         <div className="max-lg:min-w-full lg:min-w-[1024px] max-w-[1024px] p-3 md:p-8">
+            <Link href="/">Home</Link>
           {children}
         </div>
     </body>

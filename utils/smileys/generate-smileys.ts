@@ -174,9 +174,10 @@ function randomStat(min: number, max: number): number {
 const smileys: Smiley[] = names.map(icon => {
     const rarity = pickRarity();
     const { min, max } = config[rarity];
+    const cleanedName = icon.replace('face-', '').replaceAll('-', ' ')
     return {
         icon,
-        name: icon.replace('face-', '').replaceAll('-', ' '),
+        name: cleanedName.charAt(0).toUpperCase() + cleanedName.slice(1),
         rarity,
         baseStats: {
             strength: randomStat(min, max),
