@@ -6,10 +6,13 @@ import { TypographyH4 } from '@/components/typography'
 import RarityText from '@/components/typography/rarity-text'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { far } from '@fortawesome/pro-regular-svg-icons'
+import { fas } from '@fortawesome/pro-solid-svg-icons'
 import { animated, useSpring } from '@react-spring/web'
 import { useState } from 'react'
 
 library.add(far)
+// @ts-ignore
+library.add(fas)
 
 const bgStyle = {
     backgroundImage: `url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E")`
@@ -28,7 +31,7 @@ function Hud({ type, smiley, health }: HudProps) {
                 <div style={{ width: `${String(health)}%` }} className={`rounded h-2 bg-green-400 mb-2 absolute transition`}/>
                 <div className="w-full rounded h-2 bg-red-400 mb-2 "/>
             </div>
-            <div className="w-full border-slate-500 border rounded-xl h-full p-4" style={bgStyle}>
+            <div className="w-full border-slate-500 border rounded-xl h-full p-4 bg-slate-700" style={bgStyle}>
                 <div className="flex justify-between">
                     <TypographyH4>
                         {type} smiley:
@@ -53,7 +56,7 @@ function Hud({ type, smiley, health }: HudProps) {
 
 function SmileyRosterCard({ smiley }: { smiley: Smiley }) {
     return (
-        <div className="border-slate-500 border rounded-2xl overflow-hidden">
+        <div className="border-slate-500 border rounded-2xl overflow-hidden flex justify-center items-center">
             <SmileyFace className="w-12 h-12" smiley={smiley} />
         </div>
     )
@@ -196,11 +199,11 @@ export default function BattleScene({ sceneData }: Props) {
 
     return (
         <>
-            <div className="grid grid-cols-9 rounded-xl overflow-hidden">
+            <div className="grid grid-cols-9 rounded-xl overflow-hidden bg-slate-950 p-4">
                 <div className="w-full flex flex-col col-span-4">
                     <div className="w-full flex justify-center pt-16 pb-32">
                         <animated.div style={playerSprings}>
-                            <SmileyFace smiley={playerSmiley} className="h-40 w-40"/>
+                            <SmileyFace smiley={playerSmiley} className="h-40 w-40 text-slate-950" />
                         </animated.div>
                     </div>
                     <Hud type="Player" smiley={playerSmiley} health={battleData.playerSmiley.health}/>
@@ -214,7 +217,7 @@ export default function BattleScene({ sceneData }: Props) {
                 <div className="w-full flex flex-col col-span-4">
                     <div className="w-full flex justify-center pt-16 pb-32">
                         <animated.div style={enemySprings}>
-                            <SmileyFace smiley={enemySmiley} className="h-40 w-40"/>
+                            <SmileyFace smiley={enemySmiley} className="h-40 w-40 text-slate-950"/>
                         </animated.div>
                     </div>
                     <Hud type="Enemy" smiley={enemySmiley} health={battleData.enemySmiley.health}/>

@@ -28,21 +28,24 @@ type Props = {
 
 export function SmileyFace({ smiley, className }: { smiley: Smiley, className?: string }) {
     return (
-        <FontAwesomeIcon icon={['far', smiley.icon as unknown as IconName]} inverse transform="shrink-4"
-                         mask={faSquareFull as IconProp} color="white"
-                         className={`${rarityColor[smiley.rarity]} ${className}`}/>
+        <FontAwesomeIcon icon={['fas', smiley.icon as unknown as IconName]} inverse transform="shrink-4"
+                         mask={faSquareFull as IconProp}
+                         className={`${rarityColor[smiley.rarity]} text-slate-800 ${className}`}/>
     )
 }
 
 export default function SmileyCard({ smiley }: Props) {
     return (
-        <div className="border border-gray-400 p-3 rounded flex flex-wrap">
-            <div className="flex flex-col justify-center items-center gap-4 min-w-52">
-                <SmileyFace className="h-20 w-20" smiley={smiley} />
-                <TypographyH4>{smiley.name}</TypographyH4>
-
-                <div>
-                    <ul className="text-sm list-disc">
+        <div className="border border-gray-400 rounded flex flex-wrap bg-slate-600 hover:-translate-y-2 transition">
+            <div className="flex flex-col justify-center items-center w-52">
+                <div className="p-3">
+                    <div className="border border-slate-500 h-20 w-20 rounded overflow-hidden flex items-center justify-center">
+                        <SmileyFace className="h-20 w-20" smiley={smiley} />
+                    </div>
+                </div>
+                <div className="w-full text-center overflow-hidden border-t border-slate-500 p-3">
+                    <TypographyH4>{smiley.name}</TypographyH4>
+                    <ul className="text-sm">
                         <ColoredStat title="Health" value={smiley.baseStats.health} rarity={smiley.rarity} />
                         <ColoredStat title="Strength" value={smiley.baseStats.strength} rarity={smiley.rarity} />
                         <ColoredStat title="Defense" value={smiley.baseStats.defense} rarity={smiley.rarity} />
