@@ -106,7 +106,6 @@ export const names: IconName[] = [
     "face-monocle",
     "face-viewfinder",
     "face-thinking",
-    "mask-face",
     "face-grimace",
     "face-sad-sweat",
     "face-sad-tear",

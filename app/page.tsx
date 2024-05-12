@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/pro-solid-svg-icons'
 import { IconProp } from '@fortawesome/fontawesome-svg-core'
 
-
 export default function Page() {
 
     return (
@@ -27,8 +26,10 @@ export default function Page() {
               <div className="flex flex-col gap-16 mt-16">
                   <Link href="/battle" className="group">
                       <Button size="lg" className="uppercase font-bold bg-gradient-to-r from-violet-600 to-indigo-600 hover:opacity-90 transition">
-                          Battle Now
-                          <FontAwesomeIcon icon={faArrowRight as IconProp} className="ml-2 text-lg group-hover:translate-x-1 transition" />
+                          <div className="flex items-center">
+                              Battle Now
+                              <FontAwesomeIcon icon={faArrowRight as IconProp} className="ml-3 h-4 w-4 text-lg group-hover:translate-x-1 transition" />
+                          </div>
                       </Button>
                   </Link>
               </div>

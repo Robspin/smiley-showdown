@@ -1,0 +1,1125 @@
+{
+  "createdAt": "2024-05-11T23:43:53.233Z",
+  "smileys": [
+    {
+      "icon": "face-hand-yawn",
+      "name": "Hand yawn",
+      "rarity": "Crap",
+      "baseStats": {
+        "strength": 1,
+        "defense": 2,
+        "health": 2
+      }
+    },
+    {
+      "icon": "face-hand-peeking",
+      "name": "Hand peeking",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 7,
+        "defense": 7,
+        "health": 7
+      }
+    },
+    {
+      "icon": "face-icicles",
+      "name": "Icicles",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 3,
+        "defense": 6,
+        "health": 6
+      }
+    },
+    {
+      "icon": "face-glasses",
+      "name": "Glasses",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 2,
+        "defense": 3,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-smile-beam",
+      "name": "Smile beam",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 6,
+        "defense": 5,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-grin-stars",
+      "name": "Grin stars",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 7,
+        "defense": 10,
+        "health": 9
+      }
+    },
+    {
+      "icon": "face-unamused",
+      "name": "Unamused",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 5,
+        "defense": 5,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-awesome",
+      "name": "Awesome",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 4,
+        "defense": 2,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-smile-horns",
+      "name": "Smile horns",
+      "rarity": "Legendary",
+      "baseStats": {
+        "strength": 9,
+        "defense": 8,
+        "health": 8
+      }
+    },
+    {
+      "icon": "face-grin-tongue-squint",
+      "name": "Grin tongue squint",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 5,
+        "defense": 4,
+        "health": 7
+      }
+    },
+    {
+      "icon": "face-flushed",
+      "name": "Flushed",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 9,
+        "defense": 6,
+        "health": 7
+      }
+    },
+    {
+      "icon": "face-angry-horns",
+      "name": "Angry horns",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 10,
+        "defense": 7,
+        "health": 7
+      }
+    },
+    {
+      "icon": "face-beam-hand-over-mouth",
+      "name": "Beam hand over mouth",
+      "rarity": "Crap",
+      "baseStats": {
+        "strength": 2,
+        "defense": 2,
+        "health": 2
+      }
+    },
+    {
+      "icon": "face-kiss-beam",
+      "name": "Kiss beam",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 3,
+        "defense": 7,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-frown-slight",
+      "name": "Frown slight",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 9,
+        "defense": 10,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-sleeping",
+      "name": "Sleeping",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 6,
+        "defense": 3,
+        "health": 7
+      }
+    },
+    {
+      "icon": "face-cowboy-hat",
+      "name": "Cowboy hat",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 6,
+        "defense": 6,
+        "health": 6
+      }
+    },
+    {
+      "icon": "face-anguished",
+      "name": "Anguished",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 5,
+        "defense": 2,
+        "health": 2
+      }
+    },
+    {
+      "icon": "face-dizzy",
+      "name": "Dizzy",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 3,
+        "defense": 6,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-pleading",
+      "name": "Pleading",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 4,
+        "defense": 3,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-shush",
+      "name": "Shush",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 5,
+        "defense": 10,
+        "health": 6
+      }
+    },
+    {
+      "icon": "face-saluting",
+      "name": "Saluting",
+      "rarity": "Crap",
+      "baseStats": {
+        "strength": 2,
+        "defense": 3,
+        "health": 2
+      }
+    },
+    {
+      "icon": "face-persevering",
+      "name": "Persevering",
+      "rarity": "Legendary",
+      "baseStats": {
+        "strength": 10,
+        "defense": 8,
+        "health": 11
+      }
+    },
+    {
+      "icon": "face-scream",
+      "name": "Scream",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 3,
+        "defense": 3,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-kiss",
+      "name": "Kiss",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 3,
+        "defense": 5,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-grin-tongue",
+      "name": "Grin tongue",
+      "rarity": "Legendary",
+      "baseStats": {
+        "strength": 14,
+        "defense": 12,
+        "health": 10
+      }
+    },
+    {
+      "icon": "face-grin-wink",
+      "name": "Grin wink",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 5,
+        "defense": 7,
+        "health": 7
+      }
+    },
+    {
+      "icon": "face-relieved",
+      "name": "Relieved",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 5,
+        "defense": 5,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-zany",
+      "name": "Zany",
+      "rarity": "Legendary",
+      "baseStats": {
+        "strength": 14,
+        "defense": 8,
+        "health": 9
+      }
+    },
+    {
+      "icon": "face-grin-wide",
+      "name": "Grin wide",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 2,
+        "defense": 2,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-frown-open",
+      "name": "Frown open",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 6,
+        "defense": 7,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-holding-back-tears",
+      "name": "Holding back tears",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 10,
+        "defense": 5,
+        "health": 10
+      }
+    },
+    {
+      "icon": "face-anxious-sweat",
+      "name": "Anxious sweat",
+      "rarity": "Legendary",
+      "baseStats": {
+        "strength": 11,
+        "defense": 11,
+        "health": 11
+      }
+    },
+    {
+      "icon": "face-smile-tear",
+      "name": "Smile tear",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 7,
+        "defense": 7,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-weary",
+      "name": "Weary",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 3,
+        "defense": 5,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-astonished",
+      "name": "Astonished",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 3,
+        "defense": 6,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-laugh-squint",
+      "name": "Laugh squint",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 6,
+        "defense": 4,
+        "health": 6
+      }
+    },
+    {
+      "icon": "face-laugh",
+      "name": "Laugh",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 7,
+        "defense": 10,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-downcast-sweat",
+      "name": "Downcast sweat",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 3,
+        "defense": 5,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-exhaling",
+      "name": "Exhaling",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 7,
+        "defense": 6,
+        "health": 7
+      }
+    },
+    {
+      "icon": "face-laugh-beam",
+      "name": "Laugh beam",
+      "rarity": "Crap",
+      "baseStats": {
+        "strength": 1,
+        "defense": 3,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-tired",
+      "name": "Tired",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 5,
+        "defense": 3,
+        "health": 7
+      }
+    },
+    {
+      "icon": "face-smile-wink",
+      "name": "Smile wink",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 9,
+        "defense": 7,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-confounded",
+      "name": "Confounded",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 6,
+        "defense": 7,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-hushed",
+      "name": "Hushed",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 4,
+        "defense": 4,
+        "health": 7
+      }
+    },
+    {
+      "icon": "face-confused",
+      "name": "Confused",
+      "rarity": "Crap",
+      "baseStats": {
+        "strength": 3,
+        "defense": 2,
+        "health": 1
+      }
+    },
+    {
+      "icon": "face-party",
+      "name": "Party",
+      "rarity": "Legendary",
+      "baseStats": {
+        "strength": 14,
+        "defense": 11,
+        "health": 10
+      }
+    },
+    {
+      "icon": "face-kiss-wink-heart",
+      "name": "Kiss wink heart",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 3,
+        "defense": 5,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-grin-beam",
+      "name": "Grin beam",
+      "rarity": "Crap",
+      "baseStats": {
+        "strength": 1,
+        "defense": 2,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-disguise",
+      "name": "Disguise",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 4,
+        "defense": 5,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-rolling-eyes",
+      "name": "Rolling eyes",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 5,
+        "defense": 3,
+        "health": 2
+      }
+    },
+    {
+      "icon": "face-sleepy",
+      "name": "Sleepy",
+      "rarity": "Crap",
+      "baseStats": {
+        "strength": 3,
+        "defense": 3,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-thermometer",
+      "name": "Thermometer",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 4,
+        "defense": 2,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-nauseated",
+      "name": "Nauseated",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 3,
+        "defense": 4,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-surprise",
+      "name": "Surprise",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 2,
+        "defense": 5,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-hand-over-mouth",
+      "name": "Hand over mouth",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 3,
+        "defense": 5,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-clouds",
+      "name": "Clouds",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 2,
+        "defense": 5,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-meh-blank",
+      "name": "Meh blank",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 5,
+        "defense": 5,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-zipper",
+      "name": "Zipper",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 6,
+        "defense": 5,
+        "health": 10
+      }
+    },
+    {
+      "icon": "face-raised-eyebrow",
+      "name": "Raised eyebrow",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 5,
+        "defense": 4,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-sad-cry",
+      "name": "Sad cry",
+      "rarity": "Crap",
+      "baseStats": {
+        "strength": 3,
+        "defense": 3,
+        "health": 1
+      }
+    },
+    {
+      "icon": "face-frown",
+      "name": "Frown",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 6,
+        "defense": 5,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-kiss-closed-eyes",
+      "name": "Kiss closed eyes",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 9,
+        "defense": 10,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-tongue-money",
+      "name": "Tongue money",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 3,
+        "defense": 5,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-grin-squint",
+      "name": "Grin squint",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 7,
+        "defense": 4,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-pensive",
+      "name": "Pensive",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 4,
+        "defense": 3,
+        "health": 2
+      }
+    },
+    {
+      "icon": "face-grin-tears",
+      "name": "Grin tears",
+      "rarity": "Crap",
+      "baseStats": {
+        "strength": 1,
+        "defense": 1,
+        "health": 1
+      }
+    },
+    {
+      "icon": "face-melting",
+      "name": "Melting",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 2,
+        "defense": 5,
+        "health": 2
+      }
+    },
+    {
+      "icon": "face-fearful",
+      "name": "Fearful",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 4,
+        "defense": 7,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-tissue",
+      "name": "Tissue",
+      "rarity": "Crap",
+      "baseStats": {
+        "strength": 3,
+        "defense": 1,
+        "health": 1
+      }
+    },
+    {
+      "icon": "face-grin-squint-tears",
+      "name": "Grin squint tears",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 3,
+        "defense": 5,
+        "health": 6
+      }
+    },
+    {
+      "icon": "face-smile-upside-down",
+      "name": "Smile upside down",
+      "rarity": "Crap",
+      "baseStats": {
+        "strength": 3,
+        "defense": 1,
+        "health": 2
+      }
+    },
+    {
+      "icon": "face-smile-halo",
+      "name": "Smile halo",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 3,
+        "defense": 7,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-smile-plus",
+      "name": "Smile plus",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 3,
+        "defense": 5,
+        "health": 6
+      }
+    },
+    {
+      "icon": "face-swear",
+      "name": "Swear",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 4,
+        "defense": 5,
+        "health": 7
+      }
+    },
+    {
+      "icon": "face-head-bandage",
+      "name": "Head bandage",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 9,
+        "defense": 7,
+        "health": 10
+      }
+    },
+    {
+      "icon": "face-spiral-eyes",
+      "name": "Spiral eyes",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 4,
+        "defense": 6,
+        "health": 6
+      }
+    },
+    {
+      "icon": "face-lying",
+      "name": "Lying",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 2,
+        "defense": 2,
+        "health": 2
+      }
+    },
+    {
+      "icon": "face-grin",
+      "name": "Grin",
+      "rarity": "Crap",
+      "baseStats": {
+        "strength": 1,
+        "defense": 2,
+        "health": 1
+      }
+    },
+    {
+      "icon": "face-meh",
+      "name": "Meh",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 5,
+        "defense": 4,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-dotted",
+      "name": "Dotted",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 3,
+        "defense": 4,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-worried",
+      "name": "Worried",
+      "rarity": "Legendary",
+      "baseStats": {
+        "strength": 12,
+        "defense": 13,
+        "health": 11
+      }
+    },
+    {
+      "icon": "face-smile-hearts",
+      "name": "Smile hearts",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 4,
+        "defense": 2,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-laugh-wink",
+      "name": "Laugh wink",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 2,
+        "defense": 3,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-drooling",
+      "name": "Drooling",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 7,
+        "defense": 5,
+        "health": 6
+      }
+    },
+    {
+      "icon": "face-sunglasses",
+      "name": "Sunglasses",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 9,
+        "defense": 5,
+        "health": 6
+      }
+    },
+    {
+      "icon": "face-smiling-hands",
+      "name": "Smiling hands",
+      "rarity": "Legendary",
+      "baseStats": {
+        "strength": 11,
+        "defense": 8,
+        "health": 12
+      }
+    },
+    {
+      "icon": "face-tongue-sweat",
+      "name": "Tongue sweat",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 5,
+        "defense": 3,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-smirking",
+      "name": "Smirking",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 2,
+        "defense": 5,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-smile-tongue",
+      "name": "Smile tongue",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 4,
+        "defense": 3,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-disappointed",
+      "name": "Disappointed",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 3,
+        "defense": 5,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-eyes-xmarks",
+      "name": "Eyes xmarks",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 4,
+        "defense": 4,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-expressionless",
+      "name": "Expressionless",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 4,
+        "defense": 3,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-smile",
+      "name": "Smile",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 7,
+        "defense": 6,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-vomit",
+      "name": "Vomit",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 7,
+        "defense": 4,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-grin-hearts",
+      "name": "Grin hearts",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 2,
+        "defense": 2,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-grin-beam-sweat",
+      "name": "Grin beam sweat",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 4,
+        "defense": 5,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-diagonal-mouth",
+      "name": "Diagonal mouth",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 5,
+        "defense": 7,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-pouting",
+      "name": "Pouting",
+      "rarity": "Crap",
+      "baseStats": {
+        "strength": 1,
+        "defense": 2,
+        "health": 1
+      }
+    },
+    {
+      "icon": "face-explode",
+      "name": "Explode",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 5,
+        "defense": 3,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-grin-tongue-wink",
+      "name": "Grin tongue wink",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 2,
+        "defense": 4,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-angry",
+      "name": "Angry",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 3,
+        "defense": 4,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-monocle",
+      "name": "Monocle",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 4,
+        "defense": 5,
+        "health": 2
+      }
+    },
+    {
+      "icon": "face-viewfinder",
+      "name": "Viewfinder",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 3,
+        "defense": 6,
+        "health": 7
+      }
+    },
+    {
+      "icon": "face-thinking",
+      "name": "Thinking",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 4,
+        "defense": 3,
+        "health": 5
+      }
+    },
+    {
+      "icon": "mask-face",
+      "name": "Mask face",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 7,
+        "defense": 5,
+        "health": 3
+      }
+    },
+    {
+      "icon": "face-grimace",
+      "name": "Grimace",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 7,
+        "defense": 5,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-sad-sweat",
+      "name": "Sad sweat",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 2,
+        "defense": 3,
+        "health": 4
+      }
+    },
+    {
+      "icon": "face-sad-tear",
+      "name": "Sad tear",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 2,
+        "defense": 4,
+        "health": 2
+      }
+    },
+    {
+      "icon": "face-smile-relaxed",
+      "name": "Smile relaxed",
+      "rarity": "Epic",
+      "baseStats": {
+        "strength": 7,
+        "defense": 8,
+        "health": 5
+      }
+    },
+    {
+      "icon": "face-nose-steam",
+      "name": "Nose steam",
+      "rarity": "Normal",
+      "baseStats": {
+        "strength": 2,
+        "defense": 5,
+        "health": 2
+      }
+    },
+    {
+      "icon": "face-woozy",
+      "name": "Woozy",
+      "rarity": "Rare",
+      "baseStats": {
+        "strength": 3,
+        "defense": 7,
+        "health": 3
+      }
+    }
+  ]
+}

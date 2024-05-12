@@ -186,9 +186,15 @@ const smileys: Smiley[] = names.map(icon => {
     }
 })
 
-async function writeJsonFile(filePath: string, data: object) {
+async function writeJsonFile(filePath: string, smileyData: any[]) {
     try {
+        const data = {
+            createdAt: new Date().toISOString(),
+            smileys: smileyData
+        }
+
         const jsonData = JSON.stringify(data, null, 2)
+
         // @ts-ignore
         await Deno.writeTextFile(filePath, jsonData)
         console.log('JSON file has been written successfully.')
@@ -197,7 +203,7 @@ async function writeJsonFile(filePath: string, data: object) {
     }
 }
 
-const filePath = "./utils/smileys/battle-smileys.json"
+const filePath = "./utils/smileys/season-data.json"
 // @ts-ignore
 await writeJsonFile(filePath, smileys)
 
