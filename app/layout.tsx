@@ -30,9 +30,10 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
     if (!databaseUser && user) {
         const createUserData = {
             userId: user.id,
-            name: user.username ?? 'defaultUserName'
+            name: user.username ?? 'defaultUserName',
+            email: user.emailAddresses[0]?.emailAddress ?? 'defaultEmail'
         }
-        console.log(await createDBUser(createUserData))
+        await createDBUser(createUserData)
     } else if (databaseUser) {
         console.log('databaseUser :', databaseUser)
     }
