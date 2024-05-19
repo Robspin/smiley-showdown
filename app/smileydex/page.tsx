@@ -4,7 +4,11 @@ import SmileyCard from '@/components/smiley-card'
 import { TypographyH1, TypographyH2 } from '@/components/typography'
 import PageContainer from '@/components/page-container'
 import RarityText from '@/components/typography/rarity-text'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/pro-solid-svg-icons'
 
+// @ts-ignore
+library.add(fas)
 
 export default function Page() {
     // @ts-ignore

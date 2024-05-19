@@ -6,6 +6,7 @@ import RarityText from '@/components/typography/rarity-text'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/pro-solid-svg-icons'
 import { IconProp } from '@fortawesome/fontawesome-svg-core'
+import { SignedIn, SignedOut, SignInButton } from '@clerk/nextjs'
 
 export default function Page() {
 
@@ -24,14 +25,28 @@ export default function Page() {
                   Groups of smileys have banded together to fight for wealth, glory and to prove their worth!!
               </TypographyP>
               <div className="flex flex-col gap-16 mt-16">
-                  <Link href="/battle" className="group">
-                      <Button size="lg" className="uppercase font-bold bg-gradient-to-r from-violet-600 to-indigo-600 hover:opacity-90 transition">
-                          <div className="flex items-center">
-                              Battle Now
-                              <FontAwesomeIcon icon={faArrowRight as IconProp} className="ml-3 h-4 w-4 text-lg group-hover:translate-x-1 transition" />
+                  <SignedOut>
+                      <SignInButton>
+                          <div className="group block">
+                              <Button size="lg" className="uppercase font-bold bg-gradient-to-r from-violet-600 to-indigo-600 hover:opacity-90 transition">
+                                  <div className="flex items-center">
+                                      Battle Now
+                                      <FontAwesomeIcon icon={faArrowRight as IconProp} className="ml-3 h-4 w-4 text-lg group-hover:translate-x-1 transition" />
+                                  </div>
+                              </Button>
                           </div>
-                      </Button>
-                  </Link>
+                      </SignInButton>
+                  </SignedOut>
+                  <SignedIn>
+                      <Link href="/battle" className="group">
+                          <Button size="lg" className="uppercase font-bold bg-gradient-to-r from-violet-600 to-indigo-600 hover:opacity-90 transition">
+                              <div className="flex items-center">
+                                  Battle Now
+                                  <FontAwesomeIcon icon={faArrowRight as IconProp} className="ml-3 h-4 w-4 text-lg group-hover:translate-x-1 transition" />
+                              </div>
+                          </Button>
+                      </Link>
+                  </SignedIn>
               </div>
           </div>
       </PageContainer>

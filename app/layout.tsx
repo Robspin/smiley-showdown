@@ -8,6 +8,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFaceAwesome, fas } from '@fortawesome/pro-solid-svg-icons'
 import NavbarLinks from '@/components/navbar-links'
 import { ClerkProvider, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+import { currentUser } from '@clerk/nextjs/server'
+import { createDBUser, getDBUser } from '@/db/actions'
 
 
 library.add(far)
@@ -21,8 +23,21 @@ export const metadata: Metadata = {
   description: "They can't all keep smiling forever!",
 }
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return (
+export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+    const user = await currentUser()
+    const databaseUser = await getDBUser(user?.id ?? '')
+
+    if (!databaseUser && user) {
+        const createUserData = {
+            userId: user.id,
+            name: user.username ?? 'defaultUserName'
+        }
+        console.log(await createDBUser(createUserData))
+    } else if (databaseUser) {
+        console.log('databaseUser :', databaseUser)
+    }
+
+    return (
       <ClerkProvider>
           <html lang="en">
           <link rel="icon" href="/favicon.png" sizes="any"/>
@@ -36,11 +51,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                   </nav>
                 </div>
                   <div className="max-lg:min-w-full lg:min-w-[1024px] max-w-[1024px] md:p-8">
-                      {/*<SignUp path="/sign-up" />*/}
                       {children}
                   </div>
               </body>
           </html>
       </ClerkProvider>
-  )
+    )
 }
