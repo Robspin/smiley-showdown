@@ -9,7 +9,9 @@ import { faFaceAwesome, fas } from '@fortawesome/pro-solid-svg-icons'
 import NavbarLinks from '@/components/navbar-links'
 import { ClerkProvider, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 import { currentUser } from '@clerk/nextjs/server'
-import { createDBUser, getDBUser } from '@/db/actions'
+import { createDBUser, createOrReplaceDBDeck, getDBUser } from '@/db/actions'
+import { getRandomSmileyNames } from '@/utils/helpers'
+import { DatabaseDataProvider } from '@/components/database-data-provider'
 
 
 library.add(far)
@@ -29,13 +31,11 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
 
     if (!databaseUser && user) {
         const createUserData = {
-            userId: user.id,
+            clerkUserId: user.id,
             name: user.username ?? 'defaultUserName',
             email: user.emailAddresses[0]?.emailAddress ?? 'defaultEmail'
         }
         await createDBUser(createUserData)
-    } else if (databaseUser) {
-        console.log('databaseUser :', databaseUser)
     }
 
     return (

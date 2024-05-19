@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/pro-solid-svg-icons'
 import { IconProp } from '@fortawesome/fontawesome-svg-core'
 import { SignedIn, SignedOut, SignInButton } from '@clerk/nextjs'
+import CurrentDeck from '@/components/current-deck'
 
 export default function Page() {
 
@@ -46,6 +47,7 @@ export default function Page() {
                               </div>
                           </Button>
                       </Link>
+                      <CurrentDeck />
                   </SignedIn>
               </div>
           </div>
