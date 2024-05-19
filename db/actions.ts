@@ -3,6 +3,7 @@ import db from "@/db/drizzle"
 import { decks, users } from '@/db/schema'
 import { v4 as uuidv4 } from 'uuid'
 import { unstable_noStore as noStore } from 'next/cache'
+import { eq } from 'drizzle-orm'
 
 
 type CreateUserData = {
@@ -52,8 +53,7 @@ export const createOrReplaceDBDeck = async (deck: CreateDeckData) => {
         })
     } else {
         return db.update(decks).set({
-            ...existingDeck,
             smileyKeys: JSON.stringify(deck.smileyKeys)
-        })
+        }).where(eq(decks.userId, deck.userId ?? 'null'))
     }
 }
