@@ -6,15 +6,26 @@ import { getRandomItem } from '@/utils/helpers'
 
 import BattleScene from '@/components/battle/battle-scene'
 import { RedirectToSignIn, SignedIn, SignedOut } from '@clerk/nextjs'
+import { currentUser } from '@clerk/nextjs/server'
+import { getDBDeck, getDBUser } from '@/db/actions'
+import { IconDefinition } from '@fortawesome/pro-regular-svg-icons'
 
 export default async function Page() {
+    const user = await currentUser()
+    const databaseUser = await getDBUser(user?.id ?? '')
+
+    const deck = await getDBDeck(databaseUser?.id ?? '')
+
+    const smileyKeys = JSON.parse(deck?.smileyKeys ?? '') as IconDefinition[]
 
     // @ts-ignore
-    const smileys: Smiley[] = seasonData.smileys as Smiley[]
+    const seasonSmileys: Smiley[] = seasonData.smileys as Smiley[]
+    const playerSmileys = smileyKeys.map(iconKey => seasonSmileys.find(s => s.icon === iconKey)) as Smiley[]
+
 
     const sceneData = {
-        playerSmileys: [getRandomItem(smileys), getRandomItem(smileys), getRandomItem(smileys), getRandomItem(smileys), getRandomItem(smileys)],
-        enemySmileys: [getRandomItem(smileys), getRandomItem(smileys), getRandomItem(smileys), getRandomItem(smileys), getRandomItem(smileys)]
+        playerSmileys,
+        enemySmileys: [getRandomItem(seasonSmileys), getRandomItem(seasonSmileys), getRandomItem(seasonSmileys), getRandomItem(seasonSmileys), getRandomItem(seasonSmileys)]
     }
 
     // if (user) {

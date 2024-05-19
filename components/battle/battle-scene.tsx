@@ -163,9 +163,8 @@ export default function BattleScene({ sceneData }: Props) {
     const gameLoopRef = useRef(gameLoop)
     gameLoopRef.current = gameLoop
 
-    const playerSmiley = sceneData.playerSmileys[battleData.playerSmiley.activeSmileyIndex]
-    const enemySmiley = sceneData.enemySmileys[battleData.enemySmiley.activeSmileyIndex]
-    const router = useRouter()
+    const playerSmiley = sceneData.playerSmileys[battleDataRef.current.playerSmiley.activeSmileyIndex]
+    const enemySmiley = sceneData.enemySmileys[battleDataRef.current.enemySmiley.activeSmileyIndex]
 
     const [playerSprings, playerSpringsApi] = useSpring(() => ({
         from: { x: 0, opacity: 1 }
@@ -186,7 +185,8 @@ export default function BattleScene({ sceneData }: Props) {
             playerSpringsApi.start(playerAttackConfig.player)
             enemySpringsApi.start(playerAttackConfig.enemy)
 
-            damage = calculateAttack(playerSmiley.baseStats.strength)
+            damage = calculateAttack(sceneData.playerSmileys[battleDataRef.current.playerSmiley.activeSmileyIndex].baseStats.strength)
+
             setAttackDamage(damage)
 
             setTimeout(() => {
@@ -218,7 +218,7 @@ export default function BattleScene({ sceneData }: Props) {
         } else if (type === 'ENEMY') {
             playerSpringsApi.start(enemyAttackConfig.player)
             enemySpringsApi.start(enemyAttackConfig.enemy)
-            damage = calculateAttack(enemySmiley.baseStats.strength)
+            damage = calculateAttack(sceneData.enemySmileys[battleDataRef.current.enemySmiley.activeSmileyIndex].baseStats.strength)
             setAttackDamage(damage)
 
             setTimeout(() => {
