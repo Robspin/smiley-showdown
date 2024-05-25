@@ -4,10 +4,10 @@ import { usePathname } from 'next/navigation'
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs'
 
 const routes = [
-    {
-        name: 'Battle',
-        href: '/battle'
-    },
+    // {
+    //     name: 'Battle',
+    //     href: '/battle'
+    // },
     {
         name: 'SmileyDex',
         href: '/smileydex'

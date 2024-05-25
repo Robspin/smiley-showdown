@@ -19,13 +19,15 @@ export default function Page() {
                       Smiley Showdown
                   </h1>
               </RarityText>
-              <TypographyP>
-                  The time of peace within the FontAwesome Smiley community is over!
-              </TypographyP>
-              <TypographyP>
-                  Groups of smileys have banded together to fight for wealth, glory and to prove their worth!!
-              </TypographyP>
-              <div className="flex flex-col gap-16 mt-16">
+              <div className="mt-12 mb-24">
+                  <TypographyP>
+                      The time of peace within the FontAwesome Smiley community is over!
+                  </TypographyP>
+                  <TypographyP>
+                      Groups of smileys have banded together to fight for wealth, glory and to prove their worth!!
+                  </TypographyP>
+              </div>
+              <div className="flex flex-col gap-16">
                   <SignedOut>
                       <SignInButton>
                           <div className="group block">
@@ -39,14 +41,6 @@ export default function Page() {
                       </SignInButton>
                   </SignedOut>
                   <SignedIn>
-                      <Link href="/battle" className="group">
-                          <Button size="lg" className="uppercase font-bold bg-gradient-to-r from-violet-600 to-indigo-600 hover:opacity-90 transition">
-                              <div className="flex items-center">
-                                  Battle Now
-                                  <FontAwesomeIcon icon={faArrowRight as IconProp} className="ml-3 h-4 w-4 text-lg group-hover:translate-x-1 transition" />
-                              </div>
-                          </Button>
-                      </Link>
                       <CurrentDeck />
                   </SignedIn>
               </div>

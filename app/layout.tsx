@@ -7,11 +7,9 @@ import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFaceAwesome, fas } from '@fortawesome/pro-solid-svg-icons'
 import NavbarLinks from '@/components/navbar-links'
-import { ClerkProvider, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+import { ClerkProvider } from '@clerk/nextjs'
 import { currentUser } from '@clerk/nextjs/server'
-import { createDBUser, createOrReplaceDBDeck, getDBUser } from '@/db/actions'
-import { getRandomSmileyNames } from '@/utils/helpers'
-import { DatabaseDataProvider } from '@/components/database-data-provider'
+import { createDBUser, getDBUser } from '@/db/actions'
 
 
 library.add(far)
@@ -54,6 +52,9 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
                   <div className="max-lg:min-w-full lg:min-w-[1024px] max-w-[1024px] md:p-8">
                       {children}
                   </div>
+              <footer className="h-40 flex justify-center items-center bg-slate-900 w-full mt-40">
+                  <p>Built by <a href="https://robinsteeman.com" target="_blank" className="underline">Robin Steeman</a></p>
+              </footer>
               </body>
           </html>
       </ClerkProvider>

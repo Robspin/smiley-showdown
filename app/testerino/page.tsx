@@ -10,7 +10,7 @@ const MatterExample: React.FC = () => {
         if (!sceneRef.current) return
 
         const Example = () => {
-            var Engine = Matter.Engine,
+            const Engine = Matter.Engine,
                 Render = Matter.Render,
                 Runner = Matter.Runner,
                 Composites = Matter.Composites,
@@ -21,10 +21,10 @@ const MatterExample: React.FC = () => {
                 Bodies = Matter.Bodies;
 
 
-            var engine = Engine.create(),
+            const engine = Engine.create(),
                 world = engine.world
 
-            var render = Render.create({
+            const render = Render.create({
                 element: sceneRef.current,
                 engine: engine,
                 options: {
@@ -37,12 +37,12 @@ const MatterExample: React.FC = () => {
 
             Render.run(render)
 
-            var runner = Runner.create()
+            const runner = Runner.create()
             Runner.run(runner, engine)
 
 
 
-            var stack = Composites.stack(20, 20, 10, 5, 0, 0, function(x, y) {
+            const stack = Composites.stack(20, 20, 10, 5, 0, 0, function(x, y) {
                 const size = Common.random(25, 50)
 
                 console.log(size, size / 50)
@@ -70,7 +70,7 @@ const MatterExample: React.FC = () => {
                 Bodies.rectangle(0, 300, 50, 600, { isStatic: true })
             ]);
 
-            var mouse = Mouse.create(render.canvas),
+            const mouse = Mouse.create(render.canvas),
                 mouseConstraint = MouseConstraint.create(engine, {
                     mouse: mouse,
                     constraint: {

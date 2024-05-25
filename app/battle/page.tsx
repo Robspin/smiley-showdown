@@ -12,11 +12,11 @@ import { IconDefinition } from '@fortawesome/pro-regular-svg-icons'
 
 export default async function Page() {
     const user = await currentUser()
-    const databaseUser = await getDBUser(user?.id ?? '')
 
-    const deck = await getDBDeck(databaseUser?.id ?? '')
-
-    const smileyKeys = JSON.parse(deck?.smileyKeys ?? '') as IconDefinition[]
+    const databaseUser = user ? await getDBUser(user?.id ?? '') : null
+    const deck = user ? await getDBDeck(databaseUser?.id ?? '') : []
+    // @ts-ignore
+    const smileyKeys = user ? JSON.parse(deck?.smileyKeys ?? '') as IconDefinition[] : []
 
     // @ts-ignore
     const seasonSmileys: Smiley[] = seasonData.smileys as Smiley[]
@@ -27,10 +27,6 @@ export default async function Page() {
         playerSmileys,
         enemySmileys: [getRandomItem(seasonSmileys), getRandomItem(seasonSmileys), getRandomItem(seasonSmileys), getRandomItem(seasonSmileys), getRandomItem(seasonSmileys)]
     }
-
-    // if (user) {
-    //     console.log(user?.id, user.username)
-    // }
 
 
     return (
