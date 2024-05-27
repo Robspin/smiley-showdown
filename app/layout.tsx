@@ -53,7 +53,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
                       {children}
                   </div>
               <footer className="h-40 flex justify-center items-center bg-slate-900 w-full mt-40">
-                  <p>Built by <a href="https://robinsteeman.com" target="_blank" className="underline">Robin Steeman</a></p>
+                  <p>Built by <a href="https://github.com/Robspin" target="_blank" className="underline">Robspin</a></p>
               </footer>
               </body>
           </html>
